@@ -5,6 +5,10 @@ export const site = {
   domain: "brandonharding.dev",
   url: "https://brandonharding.dev",
   email: "brandonaharding@gmail.com",
+  headshot: {
+    src: "/images/brandon-harding.png",
+    alt: "Portrait of Brandon Harding",
+  },
   summary:
     "I design, ship, and operate production SaaS — from data models and APIs to AWS infrastructure and the products customers use every day.",
   stack: ["TypeScript", "Python", "Node.js", "AWS", "PostgreSQL", "React"],
