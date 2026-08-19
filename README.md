@@ -28,7 +28,7 @@ Copy lives in `src/content/`. Drop real screenshots into `public/images/toddly/`
 
 1. Import this repository in [Vercel](https://vercel.com/new).
 2. Framework preset: Next.js. Build command: `next build`. Output: default (do not use `output: "export"`).
-3. Assign the production domain **brandonharding.dev** in Project → Settings → Domains.
+3. Assign **www.brandonharding.dev** as the primary domain. Redirect the apex (`brandonharding.dev`) to `www`.
 4. Point the domain DNS to Vercel (A/CNAME as shown in the dashboard).
 
 The site is statically generated. There is no database, auth, or contact form — email uses `mailto:`.

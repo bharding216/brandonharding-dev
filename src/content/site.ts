@@ -3,7 +3,7 @@ export const site = {
   title: "Senior Full Stack Software Engineer",
   location: "San Antonio, TX",
   domain: "brandonharding.dev",
-  url: "https://brandonharding.dev",
+  url: "https://www.brandonharding.dev",
   email: "brandonaharding@gmail.com",
   headshot: {
     src: "/images/brandon-harding.png",
