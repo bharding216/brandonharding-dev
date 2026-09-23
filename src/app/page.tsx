@@ -4,6 +4,7 @@ import { Contact } from "@/components/Contact";
 import { Experience } from "@/components/Experience";
 import { FeaturedToddly } from "@/components/FeaturedToddly";
 import { Hero } from "@/components/Hero";
+import { MobileApps } from "@/components/MobileApps";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <FeaturedToddly />
       <BillingAgent />
+      <MobileApps />
       <section className="border-b border-border">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-start justify-between gap-4 px-5 py-12 sm:flex-row sm:items-center sm:px-8">
           <p className="text-sm leading-6 text-muted">

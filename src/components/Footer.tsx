@@ -12,6 +12,12 @@ export function Footer() {
           <Link href="/work" className="hover:text-foreground">
             Work
           </Link>
+          <Link href="/pacecue" className="hover:text-foreground">
+            PaceCue
+          </Link>
+          <Link href="/setpoint" className="hover:text-foreground">
+            Setpoint AI
+          </Link>
           <a
             href={site.github.href}
             target="_blank"
