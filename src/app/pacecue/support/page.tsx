@@ -48,9 +48,12 @@ export default function PaceCueSupportPage() {
     <main id="main" className="flex-1">
       <section className="border-b border-border">
         <div className="mx-auto w-full max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
-          <p className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent">
-            PaceCue
-          </p>
+          <Link
+            href="/pacecue"
+            className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent hover:text-accent-hover transition-colors"
+          >
+            ← PaceCue
+          </Link>
           <h1 className="mt-3 font-display text-3xl tracking-tight text-foreground sm:text-4xl">
             Support
           </h1>

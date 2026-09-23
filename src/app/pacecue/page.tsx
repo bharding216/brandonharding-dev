@@ -4,11 +4,11 @@ import { PhoneFrame } from "@/components/PhoneFrame";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "Setpoint AI — AI-Powered Workout Planning",
+  title: "PaceCue — Interval Running, Your Way",
   description:
-    "Setpoint AI uses artificial intelligence to build personalized workout plans, track your training, and help you progress — all from your phone.",
+    "PaceCue is a customizable interval timer for runners. Build structured workouts with warm-ups, hard/easy blocks, and cool-downs — then let audio and haptic cues keep you on pace.",
   alternates: {
-    canonical: "/setpoint",
+    canonical: "/pacecue",
   },
   robots: {
     index: true,
@@ -18,96 +18,90 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    title: "AI-Generated Workouts",
+    title: "Custom Interval Workouts",
     description:
-      "Tell Setpoint your goals, available equipment, and schedule. The AI builds a personalized workout for each training day — strength, cardio, or both.",
+      "Build structured workouts with warm-up, hard/easy interval blocks, and cool-down phases. Set repeats per block and fine-tune every duration.",
   },
   {
-    title: "Track Every Set & Rep",
+    title: "Audio & Haptic Cues",
     description:
-      "Log exercises, sets, reps, weight, and RPE in real time. Cardio entries capture duration, distance, and pace. Your planned workout stays side-by-side with what you actually do.",
+      "Choose beeps, voice announcements, or both. Haptic feedback vibrates on every interval change so you never need to look at your phone.",
   },
   {
-    title: "Weekly Schedule",
+    title: "Countdown Warnings",
     description:
-      "Define which days you train and what type of session each day is. Setpoint uses your schedule to recommend the right workout at the right time.",
+      "Get a warning cue before each interval ends — 3s, 5s, 10s, 15s, or 30s — so you can prepare for what's next.",
   },
   {
-    title: "Progress & History",
+    title: "Interval Progress Updates",
     description:
-      "Review past workouts, see volume trends over time, and track your consistency — all in one place.",
+      "Hear elapsed time announced during each interval. Requires Voice or Both audio mode.",
   },
   {
-    title: "Import Workouts",
+    title: "Screen Always On",
     description:
-      "Already have a program? Import workout data so you can pick up right where you left off.",
+      "Keep the display on during workouts so you can glance at the timer without waking your phone.",
   },
   {
-    title: "Works on iOS & Android",
+    title: "Works Offline",
     description:
-      "Built with React Native and available on both platforms. Your data syncs across devices through your account.",
+      "PaceCue runs entirely on your device. No account, no internet connection required — just open and go.",
   },
 ];
 
 const screenshots = [
   {
-    src: "/images/setpoint/today.png",
-    alt: "Setpoint AI today view showing an AI-planned Full Body Strength and Cardio workout",
-    caption: "Today — AI-planned workout ready to go",
+    src: "/images/pacecue/workouts-home.png",
+    alt: "PaceCue workouts list showing 5K Speed, Tempo Run, and Short Intervals",
+    caption: "Workouts — your library of interval sessions",
   },
   {
-    src: "/images/setpoint/workout-logging.png",
-    alt: "Setpoint AI workout logging with sets, reps, weight, and RPE for each exercise",
-    caption: "Logging — track every set in real time",
+    src: "/images/pacecue/edit-workout.png",
+    alt: "PaceCue edit workout screen with warm up, interval blocks, and cool down",
+    caption: "Editor — warm-up, intervals, and cool-down",
   },
   {
-    src: "/images/setpoint/history.png",
-    alt: "Setpoint AI history showing past workouts with exercise details and AI reasoning",
-    caption: "History — review past sessions and AI reasoning",
+    src: "/images/pacecue/active-workout.png",
+    alt: "PaceCue active workout timer showing warm up countdown at 9:57",
+    caption: "Active — live countdown with interval cues",
   },
   {
-    src: "/images/setpoint/settings.png",
-    alt: "Setpoint AI settings with weekly schedule, goals, and training preferences",
-    caption: "Settings — schedule, goals, and preferences",
+    src: "/images/pacecue/settings.png",
+    alt: "PaceCue settings for audio cues, haptic feedback, countdown warnings, and display",
+    caption: "Settings — audio, haptics, and display",
   },
 ];
 
-export default function SetpointMarketingPage() {
+export default function PaceCueMarketingPage() {
   return (
     <main id="main" className="flex-1">
       {/* Hero */}
       <section className="border-b border-border">
         <div className="mx-auto w-full max-w-3xl px-5 py-16 sm:px-8 sm:py-24">
           <p className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent">
-            Setpoint AI
+            PaceCue
           </p>
           <h1 className="mt-3 font-display text-3xl tracking-tight text-foreground sm:text-4xl">
-            Your AI training partner.
+            Interval running, your way.
           </h1>
           <p className="mt-4 max-w-xl text-base leading-7 text-muted">
-            Setpoint AI builds personalized workouts based on your goals,
-            equipment, and weekly schedule — then tracks every set so you can
-            see your progress over time.
+            PaceCue is a customizable interval timer for runners. Build
+            structured workouts with warm-ups, hard/easy blocks, and
+            cool-downs — then let audio and haptic cues keep you on pace.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              href="/setpoint/support"
+              href="/pacecue/support"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-foreground transition-colors hover:border-accent/50 hover:bg-surface"
             >
               Support
             </Link>
             <Link
-              href="/setpoint/privacy"
+              href="/pacecue/privacy"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
             >
               Privacy Policy
-            </Link>
-            <Link
-              href="/setpoint/terms"
-              className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
-            >
-              Terms of Service
             </Link>
           </div>
         </div>
@@ -152,14 +146,12 @@ export default function SetpointMarketingPage() {
       {/* Contact / CTA */}
       <section>
         <div className="mx-auto w-full max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
-          <h2 className="text-lg font-semibold text-foreground">
-            Questions?
-          </h2>
+          <h2 className="text-lg font-semibold text-foreground">Questions?</h2>
           <p className="mt-3 text-base leading-7 text-muted">
-            Setpoint AI is built and maintained by {site.name}. If you have
+            PaceCue is built and maintained by {site.name}. If you have
             questions, feedback, or run into any issues, reach out at{" "}
             <a
-              href={`mailto:${site.email}?subject=Setpoint%20AI`}
+              href={`mailto:${site.email}?subject=PaceCue`}
               className="text-accent hover:text-accent-hover transition-colors"
             >
               {site.email}
