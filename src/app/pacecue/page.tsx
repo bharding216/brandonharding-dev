@@ -103,6 +103,12 @@ export default function PaceCueMarketingPage() {
             >
               Privacy Policy
             </Link>
+            <Link
+              href="/pacecue/terms"
+              className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
+            >
+              Terms of Service
+            </Link>
           </div>
         </div>
       </section>
