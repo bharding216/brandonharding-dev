@@ -4,15 +4,15 @@ import { SectionHeading } from "@/components/SectionHeading";
 
 const apps = [
   {
-    name: "PaceCue",
+    name: "SplitCue",
     tagline: "Interval running, your way.",
     description:
       "A customizable interval timer for runners. Build structured workouts with warm-ups, hard/easy blocks, and cool-downs — then let audio and haptic cues keep you on pace.",
-    href: "/pacecue",
+    href: "/splitcue",
     stack: ["React Native", "Expo", "TypeScript"],
     screenshot: {
-      src: "/images/pacecue/workouts-home.png",
-      alt: "PaceCue workouts list showing 5K Speed, Tempo Run, and Short Intervals",
+      src: "/images/splitcue/workouts-home.png",
+      alt: "SplitCue workouts list showing 5K Speed, Tempo Run, and Short Intervals",
       caption: "Workout library",
     },
   },

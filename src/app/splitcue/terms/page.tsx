@@ -3,11 +3,11 @@ import Link from "next/link";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "PaceCue — Terms of Service",
+  title: "SplitCue — Terms of Service",
   description:
-    "Terms of service for PaceCue, an interval cue and pace tracking app for runners.",
+    "Terms of service for SplitCue, an interval cue and pace tracking app for runners.",
   alternates: {
-    canonical: "/pacecue/terms",
+    canonical: "/splitcue/terms",
   },
   robots: {
     index: true,
@@ -15,16 +15,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PaceCueTermsPage() {
+export default function SplitCueTermsPage() {
   return (
     <main id="main" className="flex-1">
       <section className="border-b border-border">
         <div className="mx-auto w-full max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
           <Link
-            href="/pacecue"
+            href="/splitcue"
             className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent hover:text-accent-hover transition-colors"
           >
-            ← PaceCue
+            ← SplitCue
           </Link>
           <h1 className="mt-3 font-display text-3xl tracking-tight text-foreground sm:text-4xl">
             Terms of Service
@@ -43,7 +43,7 @@ export default function PaceCueTermsPage() {
                 1. Acceptance of Terms
               </h2>
               <p className="mt-3">
-                By downloading, installing, or using PaceCue
+                By downloading, installing, or using SplitCue
                 (&quot;the App&quot;), you agree to be bound by these Terms of
                 Service (&quot;Terms&quot;). If you do not agree, do not use
                 the App. The App is developed and operated by {site.name}{" "}
@@ -56,7 +56,7 @@ export default function PaceCueTermsPage() {
                 2. Description of Service
               </h2>
               <p className="mt-3">
-                PaceCue is a customizable interval timer and pace tracking app
+                SplitCue is a customizable interval timer and pace tracking app
                 for runners. The App allows you to build structured workouts
                 with warm-up, interval, and cool-down phases; receive audio and
                 haptic cues during runs; track your GPS pace in real time; and
@@ -70,7 +70,7 @@ export default function PaceCueTermsPage() {
                 3. Accounts & Authentication
               </h2>
               <p className="mt-3">
-                An account is not required to use PaceCue&apos;s core interval
+                An account is not required to use SplitCue&apos;s core interval
                 timer features. However, creating an account (via Apple
                 Sign-In, Google Sign-In, or email) is required to access cloud
                 sync and AI workout generation. If you create an account, you
@@ -85,10 +85,10 @@ export default function PaceCueTermsPage() {
                 4. Subscriptions & Payments
               </h2>
               <p className="mt-3">
-                PaceCue offers a free tier and an optional paid subscription
-                (&quot;PaceCue Pro&quot;). The free tier includes unlimited
+                SplitCue offers a free tier and an optional paid subscription
+                (&quot;SplitCue Pro&quot;). The free tier includes unlimited
                 workouts and intervals, full pace tracking, cloud sync, and a
-                limited number of AI-generated workouts per month. PaceCue Pro
+                limited number of AI-generated workouts per month. SplitCue Pro
                 unlocks unlimited AI workout generation and additional
                 features.
               </p>
@@ -114,7 +114,7 @@ export default function PaceCueTermsPage() {
                 5. AI-Generated Content
               </h2>
               <p className="mt-3">
-                PaceCue&apos;s AI workout builder generates interval workout
+                SplitCue&apos;s AI workout builder generates interval workout
                 suggestions based on the preferences and data you provide. We
                 do not guarantee the accuracy, completeness, or suitability of
                 any AI-generated recommendation. You should evaluate each
@@ -128,7 +128,7 @@ export default function PaceCueTermsPage() {
                 6. Health & Fitness Disclaimer
               </h2>
               <p className="mt-3">
-                PaceCue provides interval timing, pace tracking, and
+                SplitCue provides interval timing, pace tracking, and
                 AI-generated workout suggestions for informational purposes
                 only.{" "}
                 <strong className="text-foreground">
@@ -146,7 +146,7 @@ export default function PaceCueTermsPage() {
                 7. Location Data
               </h2>
               <p className="mt-3">
-                PaceCue uses GPS location data solely for real-time pace
+                SplitCue uses GPS location data solely for real-time pace
                 tracking during workouts. Location access is requested only
                 when you enable pace tracking and is used exclusively to
                 calculate your running pace and distance. Location data is
@@ -162,7 +162,7 @@ export default function PaceCueTermsPage() {
               <p className="mt-3">
                 Your use of the App is also governed by our{" "}
                 <Link
-                  href="/pacecue/privacy"
+                  href="/splitcue/privacy"
                   className="text-accent hover:text-accent-hover transition-colors"
                 >
                   Privacy Policy
@@ -207,7 +207,7 @@ export default function PaceCueTermsPage() {
               </h2>
               <p className="mt-3">
                 All content, design, code, and branding associated with
-                PaceCue are owned by {site.name} and are protected by
+                SplitCue are owned by {site.name} and are protected by
                 applicable intellectual property laws. You retain ownership of
                 any personal data, workout configurations, and run history you
                 create within the App.
@@ -223,7 +223,7 @@ export default function PaceCueTermsPage() {
                 any time if you violate these Terms. You may delete your
                 account at any time by contacting us at{" "}
                 <a
-                  href={`mailto:${site.email}?subject=PaceCue%20Account%20Deletion`}
+                  href={`mailto:${site.email}?subject=SplitCue%20Account%20Deletion`}
                   className="text-accent hover:text-accent-hover transition-colors"
                 >
                   {site.email}

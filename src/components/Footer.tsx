@@ -12,8 +12,8 @@ export function Footer() {
           <Link href="/work" className="hover:text-foreground">
             Work
           </Link>
-          <Link href="/pacecue" className="hover:text-foreground">
-            PaceCue
+          <Link href="/splitcue" className="hover:text-foreground">
+            SplitCue
           </Link>
           <Link href="/setpoint" className="hover:text-foreground">
             Setpoint AI

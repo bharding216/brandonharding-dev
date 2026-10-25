@@ -4,11 +4,11 @@ import { PhoneFrame } from "@/components/PhoneFrame";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "PaceCue — Interval Running, Your Way",
+  title: "SplitCue — Interval Running, Your Way",
   description:
-    "PaceCue is a customizable interval timer for runners. Build structured workouts with warm-ups, hard/easy blocks, and cool-downs — then let audio and haptic cues keep you on pace.",
+    "SplitCue is a customizable interval timer for runners. Build structured workouts with warm-ups, hard/easy blocks, and cool-downs — then let audio and haptic cues keep you on pace.",
   alternates: {
-    canonical: "/pacecue",
+    canonical: "/splitcue",
   },
   robots: {
     index: true,
@@ -45,66 +45,66 @@ const features = [
   {
     title: "Works Offline",
     description:
-      "PaceCue runs entirely on your device. No account, no internet connection required — just open and go.",
+      "SplitCue runs entirely on your device. No account, no internet connection required — just open and go.",
   },
 ];
 
 const screenshots = [
   {
-    src: "/images/pacecue/workouts-home.png",
-    alt: "PaceCue workouts list showing 5K Speed, Tempo Run, and Short Intervals",
+    src: "/images/splitcue/workouts-home.png",
+    alt: "SplitCue workouts list showing 5K Speed, Tempo Run, and Short Intervals",
     caption: "Workouts — your library of interval sessions",
   },
   {
-    src: "/images/pacecue/edit-workout.png",
-    alt: "PaceCue edit workout screen with warm up, interval blocks, and cool down",
+    src: "/images/splitcue/edit-workout.png",
+    alt: "SplitCue edit workout screen with warm up, interval blocks, and cool down",
     caption: "Editor — warm-up, intervals, and cool-down",
   },
   {
-    src: "/images/pacecue/active-workout.png",
-    alt: "PaceCue active workout timer showing warm up countdown at 9:57",
+    src: "/images/splitcue/active-workout.png",
+    alt: "SplitCue active workout timer showing warm up countdown at 9:57",
     caption: "Active — live countdown with interval cues",
   },
   {
-    src: "/images/pacecue/settings.png",
-    alt: "PaceCue settings for audio cues, haptic feedback, countdown warnings, and display",
+    src: "/images/splitcue/settings.png",
+    alt: "SplitCue settings for audio cues, haptic feedback, countdown warnings, and display",
     caption: "Settings — audio, haptics, and display",
   },
 ];
 
-export default function PaceCueMarketingPage() {
+export default function SplitCueMarketingPage() {
   return (
     <main id="main" className="flex-1">
       {/* Hero */}
       <section className="border-b border-border">
         <div className="mx-auto w-full max-w-3xl px-5 py-16 sm:px-8 sm:py-24">
           <p className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent">
-            PaceCue
+            SplitCue
           </p>
           <h1 className="mt-3 font-display text-3xl tracking-tight text-foreground sm:text-4xl">
             Interval running, your way.
           </h1>
           <p className="mt-4 max-w-xl text-base leading-7 text-muted">
-            PaceCue is a customizable interval timer for runners. Build
+            SplitCue is a customizable interval timer for runners. Build
             structured workouts with warm-ups, hard/easy blocks, and
             cool-downs — then let audio and haptic cues keep you on pace.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              href="/pacecue/support"
+              href="/splitcue/support"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-foreground transition-colors hover:border-accent/50 hover:bg-surface"
             >
               Support
             </Link>
             <Link
-              href="/pacecue/privacy"
+              href="/splitcue/privacy"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/pacecue/terms"
+              href="/splitcue/terms"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
             >
               Terms of Service
@@ -154,10 +154,10 @@ export default function PaceCueMarketingPage() {
         <div className="mx-auto w-full max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
           <h2 className="text-lg font-semibold text-foreground">Questions?</h2>
           <p className="mt-3 text-base leading-7 text-muted">
-            PaceCue is built and maintained by {site.name}. If you have
+            SplitCue is built and maintained by {site.name}. If you have
             questions, feedback, or run into any issues, reach out at{" "}
             <a
-              href={`mailto:${site.email}?subject=PaceCue`}
+              href={`mailto:${site.email}?subject=SplitCue`}
               className="text-accent hover:text-accent-hover transition-colors"
             >
               {site.email}

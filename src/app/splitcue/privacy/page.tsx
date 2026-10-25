@@ -3,11 +3,11 @@ import Link from "next/link";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "PaceCue — Privacy Policy",
+  title: "SplitCue — Privacy Policy",
   description:
-    "Privacy policy for PaceCue, a simple interval cue running app.",
+    "Privacy policy for SplitCue, a simple interval cue running app.",
   alternates: {
-    canonical: "/pacecue/privacy",
+    canonical: "/splitcue/privacy",
   },
   robots: {
     index: true,
@@ -15,16 +15,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PaceCuePrivacyPage() {
+export default function SplitCuePrivacyPage() {
   return (
     <main id="main" className="flex-1">
       <section className="border-b border-border">
         <div className="mx-auto w-full max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
           <Link
-            href="/pacecue"
+            href="/splitcue"
             className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent hover:text-accent-hover transition-colors"
           >
-            ← PaceCue
+            ← SplitCue
           </Link>
           <h1 className="mt-3 font-display text-3xl tracking-tight text-foreground sm:text-4xl">
             Privacy Policy
@@ -43,9 +43,9 @@ export default function PaceCuePrivacyPage() {
                 Overview
               </h2>
               <p className="mt-3">
-                PaceCue is an interval cue app for runners built by{" "}
+                SplitCue is an interval cue app for runners built by{" "}
                 {site.name}. Your privacy matters — this policy explains what
-                data PaceCue collects (very little) and how it is handled.
+                data SplitCue collects (very little) and how it is handled.
               </p>
             </div>
 
@@ -54,7 +54,7 @@ export default function PaceCuePrivacyPage() {
                 Data Collection
               </h2>
               <p className="mt-3">
-                PaceCue is designed to work without collecting personal data.
+                SplitCue is designed to work without collecting personal data.
                 The app does <strong className="text-foreground">not</strong>:
               </p>
               <ul className="mt-3 list-disc space-y-2 pl-5">
@@ -75,7 +75,7 @@ export default function PaceCuePrivacyPage() {
                 Third-Party Services
               </h2>
               <p className="mt-3">
-                PaceCue does not integrate with third-party analytics,
+                SplitCue does not integrate with third-party analytics,
                 advertising, or tracking services. No data is shared with third
                 parties.
               </p>
@@ -97,7 +97,7 @@ export default function PaceCuePrivacyPage() {
                 Children&apos;s Privacy
               </h2>
               <p className="mt-3">
-                PaceCue does not knowingly collect any personal information from
+                SplitCue does not knowingly collect any personal information from
                 anyone, including children under 13. Because no personal data is
                 collected, the app is safe for users of all ages.
               </p>
@@ -110,7 +110,7 @@ export default function PaceCuePrivacyPage() {
               <p className="mt-3">
                 If this privacy policy is updated, the revised version will be
                 posted on this page with an updated effective date. Continued
-                use of PaceCue after changes constitutes acceptance of the
+                use of SplitCue after changes constitutes acceptance of the
                 revised policy.
               </p>
             </div>

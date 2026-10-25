@@ -3,11 +3,11 @@ import Link from "next/link";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "PaceCue — Support",
+  title: "SplitCue — Support",
   description:
-    "Get help with PaceCue, a simple interval cue running app. FAQs and contact info.",
+    "Get help with SplitCue, a simple interval cue running app. FAQs and contact info.",
   alternates: {
-    canonical: "/pacecue/support",
+    canonical: "/splitcue/support",
   },
   robots: {
     index: true,
@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "How do I set up an interval workout?",
     answer:
-      "Open PaceCue, choose your interval and rest durations, set the number of rounds, and tap Start. Audio and haptic cues will tell you when to switch.",
+      "Open SplitCue, choose your interval and rest durations, set the number of rounds, and tap Start. Audio and haptic cues will tell you when to switch.",
   },
   {
     question: "Can I customize the cue sounds?",
@@ -27,14 +27,14 @@ const faqs = [
       "Yes — go to Settings to pick from the available cue sounds and adjust the volume independently from your device volume.",
   },
   {
-    question: "Does PaceCue use GPS or track my location?",
+    question: "Does SplitCue use GPS or track my location?",
     answer:
-      "No. PaceCue is a timer-based cue app. It does not access GPS or location services.",
+      "No. SplitCue is a timer-based cue app. It does not access GPS or location services.",
   },
   {
-    question: "Does PaceCue work offline?",
+    question: "Does SplitCue work offline?",
     answer:
-      "Absolutely. PaceCue runs entirely on your device and does not require an internet connection.",
+      "Absolutely. SplitCue runs entirely on your device and does not require an internet connection.",
   },
   {
     question: "How do I reset my settings?",
@@ -43,22 +43,22 @@ const faqs = [
   },
 ];
 
-export default function PaceCueSupportPage() {
+export default function SplitCueSupportPage() {
   return (
     <main id="main" className="flex-1">
       <section className="border-b border-border">
         <div className="mx-auto w-full max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
           <Link
-            href="/pacecue"
+            href="/splitcue"
             className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-accent hover:text-accent-hover transition-colors"
           >
-            ← PaceCue
+            ← SplitCue
           </Link>
           <h1 className="mt-3 font-display text-3xl tracking-tight text-foreground sm:text-4xl">
             Support
           </h1>
           <p className="mt-4 text-base leading-7 text-muted">
-            Need help with PaceCue? Check the FAQs below or reach out directly.
+            Need help with SplitCue? Check the FAQs below or reach out directly.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function PaceCueSupportPage() {
           <p className="mt-3 text-base leading-7 text-muted">
             If the FAQs didn&apos;t answer your question, email me at{" "}
             <a
-              href={`mailto:${site.email}?subject=PaceCue%20Support`}
+              href={`mailto:${site.email}?subject=SplitCue%20Support`}
               className="text-accent hover:text-accent-hover transition-colors"
             >
               {site.email}
@@ -103,19 +103,19 @@ export default function PaceCueSupportPage() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href={`mailto:${site.email}?subject=PaceCue%20Support`}
+              href={`mailto:${site.email}?subject=SplitCue%20Support`}
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-foreground transition-colors hover:border-accent/50 hover:bg-surface"
             >
               Email Support
             </a>
             <Link
-              href="/pacecue/privacy"
+              href="/splitcue/privacy"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/pacecue/terms"
+              href="/splitcue/terms"
               className="inline-flex h-11 items-center rounded-full border border-border px-5 text-sm text-muted transition-colors hover:border-accent/50 hover:bg-surface hover:text-foreground"
             >
               Terms of Service
