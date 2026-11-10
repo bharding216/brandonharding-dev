@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         destination: "https://www.brandonharding.dev/:path*",
         permanent: true,
       },
+      {
+        source: "/pacecue/:path*",
+        destination: "/splitcue/:path*",
+        permanent: true,
+      },
     ];
   },
 };
